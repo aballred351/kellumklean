@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kellum Klean LLC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo-no-background.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">SCHEDULE</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    
+    <div class="text-box">
+        <h1>Best Kleaning Company in Cedar Rapids!</h1>
+        <p>Flexible appointment times, thorough, yada yada yada</p>
+        <a href="" class="hero-btn">Travis is great!</a>
+    </div>
+
+    </section>
+
+<!--------------------Services---------------------------->
+
+    <section class="services">
+        <h1>Services We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ullam ad modi debitis suscipit maiores iure vero in quod doloremque repellendus tempore architecto quo, soluta accusantium recusandae adipisci? Quas, neque?</p>
+
+        <div class="row">
+            <div class="services-col">
+                <h3>Deep Cleaning</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laudantium, mollitia porro eius minus enim repudiandae vitae beatae a facere sint deserunt numquam quasi atque assumenda non facilis, similique necessitatibus.</p>
+            </div>
+            <div class="services-col">
+                <h3>Less Deep</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laudantium, mollitia porro eius minus enim repudiandae vitae beatae a facere sint deserunt numquam quasi atque assumenda non facilis, similique necessitatibus.</p>
+            </div>
+            <div class="services-col">
+                <h3>Basic</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe laudantium, mollitia porro eius minus enim repudiandae vitae beatae a facere sint deserunt numquam quasi atque assumenda non facilis, similique necessitatibus.</p>
+            </div>
+        </div>
+
+    </section>
+
+<!--------------------Schedule---------------------------->
+
+    <section class="schedule">
+        <h1>Schedule an Appointment</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ullam ad modi debitis suscipit maiores iure vero in quod doloremque repellendus tempore architecto quo, soluta accusantium recusandae adipisci? Quas, neque?</p>
+    
+    
+    </section>
+
+<!-------------------Java Script for Toggle Menu------------------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
