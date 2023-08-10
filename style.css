@@ -101,7 +101,7 @@ nav .fa{
 
 @media(max-width:700px){
     .text-box h1{
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .nav-links ul li{
@@ -131,6 +131,7 @@ nav .fa{
     .nav-links ul{
         padding: 30px;
     }
+    
 
     .row{
         flex-direction: column;
@@ -143,6 +144,11 @@ nav .fa{
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.services img{
+    height: 250px;
+    width: auto;
 }
 
 h1{
@@ -183,5 +189,31 @@ h3{
 
 .services-col:hover{
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testimonials-col{
+    flex-basis: 44%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.schedule{
+    margin-top: 40px;
+}
+
+.schedule h1{
+    margin-bottom: 20px;
 }
 
