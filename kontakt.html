@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="images/logo-no-background.png" width="200px" height="100px"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+      <h1>Kellum Klean Information</h1><br>
+      <p>ph: 319-721-7930</p>
+      <p>email: kellumklean@gmail.com</p>
+      <a href="index.html" class="hero-btn">Kellum Klean LLC</a>
+    </div>
+  </section>
+
+  
+
+  <section class="schedule">
+    <h1>Use the Scheduler below to book your appointment today!</h1>
+    <!-- Google Calendar Appointment Scheduling begin -->
+<iframe src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0o6oqPK4PFu13_e4VqBKW1h6NZtQjr-u9npLoJRFrwc787S6gtiV41nNpJdcL5rYUgswKWWXay?gv=true" style="border: 0" width="100%" height="600" frameborder="0"></iframe>
+<!-- end Google Calendar Appointment Scheduling -->
+  </section>
+  
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+
+</script> 
+
+</body>
+</html>
